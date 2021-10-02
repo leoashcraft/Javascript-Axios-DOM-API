@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="body">
+    <h1>F1 Racer Information</h1>
+    <form action="" id="form">
+        <div>
+            <label for="">Season</label>
+            <input type="text" name="season" id="season">
+            <label for="">Round</label>
+            <input type="text" name="round" id="round">
+            <input type="submit" value="Submit" id="submit">
+        </div>
+
+    </form>
+
+    <div id="main">
+        <table border="1">
+            <th>Season</th>
+            <th>Round</th>
+            <th>Race Name</th>
+            <th>Circuit Name</th>
+            <th>Locality</th>
+            <th>Country</th>
+            <th>Date</th>
+            <tr>
+                <td id="seasonName"></td>
+                <td id="roundName"></td>
+                <td id="raceName"></td>
+                <td id="circuitName"></td>
+                <td id="locality"></td>
+                <td id="country"></td>
+                <td id="date"></td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./f1racer.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+#body {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+body {
+    background-color: rgb(1, 2, 44);
+}
+
+table {
+    margin-top: 20px;
+    border: 0px;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+}
+
+table th {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#submit {
+    border: 0px;
+    padding: 5px 15px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+tr { 
+    display: block; 
+    float: left; 
+}
+
+th, td {
+     display: block; 
+    }
+
